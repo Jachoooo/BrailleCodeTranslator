@@ -70,27 +70,6 @@ if __name__ == "__main__" :
 
     input.close()
 
-    """
 
-    #{wynik=coords2display(target)
-    if DEBUG :print(loaddict())
-    if DEBUG :print(wynik)
-    if DEBUG :printdisplay(wynik)
-
-    output=open("result.txt","r+")
-    output.truncate(0)
-    output.seek(0)
-    output.close()
-    output=open("result.txt","w")
-    
-    txt=['A  ','B  ','C  ','D  ','E  ','F  ','G  ','Dp ']
-    for cnt,line in enumerate(wynik):
-        line=line.replace('0',LO)
-        line=line.replace('1',HI)
-        wLine=txt[cnt]+line+"\n"
-        output.write(wLine)
-    output.close
-
-    """
 
     
